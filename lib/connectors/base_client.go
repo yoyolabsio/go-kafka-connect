@@ -70,8 +70,8 @@ func newBaseClient(url string) BaseClient {
 		SetHeader("Accept", "application/json").
 		SetRetryCount(5).
 		SetRetryWaitTime(500 * time.Millisecond).
-		SetRetryMaxWaitTime(5 * time.Second).
-		SetTimeout(10 * time.Second).
+		SetRetryMaxWaitTime(15 * time.Second).
+		SetTimeout(2 * time.Minute).
 		AddRetryCondition(func(resp *resty.Response) (bool, error) {
 			return resp.StatusCode() == 409, nil
 		})
