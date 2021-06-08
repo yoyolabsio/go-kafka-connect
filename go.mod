@@ -9,7 +9,6 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/ricardo-ch/go-kafka-connect v0.0.0-20200403115642-f7b66cb04ed7
 	github.com/spf13/cobra v0.0.1
 	github.com/spf13/pflag v1.0.0 // indirect
 	github.com/stretchr/objx v0.1.1 // indirect
